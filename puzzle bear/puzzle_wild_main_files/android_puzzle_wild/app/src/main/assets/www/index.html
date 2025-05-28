@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no, minimal-ui" />
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-image: url('img/blur.png');
+            background-size: 100% 100%;
+        }
+
+        html,
+        body {
+            overflow: hidden;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+
+        canvas {
+            touch-action-delay: none;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+
+        @font-face {
+            font-family: 'impact';
+            font-style: normal;
+            font-weight: 400;
+            src: url('font/impact.ttf') format('truetype');
+        }
+    </style>
+</head>
+
+<body>
+    <div style="font-family:impact; position:absolute; left:-1000px; visibility:hidden;">.</div>
+	<script src="cordova.js"></script>
+	<script src="plugins/gradle/share.js"></script>
+	<script src="plugins/gradle/image.js"></script>
+	<script src="plugins/gradle/admob.js"></script>
+	<script src="plugins/gradle/api.js"></script>
+	<script src="plugins/gradle/firebase.js"></script>
+	<script src="plugins/gradle/storage.js"></script>
+	<script src="plugins/gradle/manager.js"></script>
+    <script type="text/javascript" src="lib/phaser.min.js"></script>
+    <script type="text/javascript" src="lib/match-t.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+	<script src="hooks.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869906289261",
+    "project_id": "puzzle-bear-42fda",
+    "storage_bucket": "puzzle-bear-42fda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869906289261:android:76b719bd1f16c5009fe564",
+        "android_client_info": {
+          "package_name": "com.rico.puzzlebear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869906289261-a95h539pcr3v8i4gmckpqch45fnge3tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJps88NBRc-J0P1uc0smnr7VIdWoyHx4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869906289261-a95h539pcr3v8i4gmckpqch45fnge3tm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
